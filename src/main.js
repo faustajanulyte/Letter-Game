@@ -5,9 +5,7 @@ import router from './router'
 import './plugins/bootstrap-vue'
 import '@babel/polyfill'
 import 'mutationobserver-shim'
-import VueNativeSock from 'vue-native-websocket'
 
-Vue.use(VueNativeSock, 'ws://192.168.1.220:8080/socket')
 Vue.use(VueRouter)
 Vue.config.productionTip = false
 

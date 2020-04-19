@@ -50,7 +50,13 @@ export default {
     },
 
     connect() {
-      this.socket = new WebSocket("ws://192.168.1.220:8080/socket");
+
+      console.log(process.env.VUE_APP_WS_URL);
+      console.log("ello");
+      
+      
+
+      this.socket = new WebSocket(process.env.VUE_APP_WS_URL);
 
       this.socket.self = this;
 
