@@ -1,4 +1,4 @@
-# game-from-the-same-letter
+# game-of-the-same-letter
 
 ## Project setup
 ```
