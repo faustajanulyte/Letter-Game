@@ -38,7 +38,7 @@ export default {
         "V",
         "Z",
       ],
-      message: "SDSAD",
+      message: "",
       connected: "",
       socket: null,
     };
